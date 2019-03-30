@@ -10,11 +10,16 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'Add Inventory',
     icon: 'nb-home',
-    link: '/pages/iot-dashboard',
+    link: '/pages/forms/inputs',
   },
   {
     title: 'Dispatch Inventory',
     icon: 'nb-home',
-    link: '/pages/iot-dashboard',
+    link: '/pages/tables/smart-table',
+  },
+  {
+    title: 'Inventory Status',
+    icon: 'nb-home',
+    link: '/pages/tables/smart-table',
   }
 ];
